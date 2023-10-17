@@ -105,8 +105,9 @@ for (let i = 1; i <= 10; i++) {
 // Boek wissen, er blijven er 9 over
 lib.books.deleteBook("title-7");
 
-console.log(lib);
-console.log(lib.books);
+//console.log(lib);
+console.log(JSON.stringify(lib, null, 2));
+//console.log(lib.books);
 console.log(lib.numberOfBooks());
 console.log(lib.numberOfPages());
 console.log(lib.averagePages());
